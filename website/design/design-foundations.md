@@ -199,13 +199,30 @@ See full list in `assets-for-code.md`.
 
 ---
 
-## 9. Motion (simple rules)
+## 9. Motion
 
-- Keep motion subtle and purposeful
-- Prefer fade + slight translate (8–16 px)
-- Duration: 200–400 ms
-- Respect `prefers-reduced-motion`
-- No constant parallax or heavy animations on scroll
+**Primary library:** GSAP (+ ScrollTrigger)  
+**Complement:** Motion (Framer Motion family) for small React UI state animations when useful
+
+### Principles
+- Subtle, purposeful, premium
+- Prefer fade + slight translate (8–20 px) or soft scale
+- Staggered reveals for cards and lists
+- Scroll-triggered section entrances and FOMO quotes
+- Duration mostly 0.4–0.9s
+- Soft eases (power2 / power3)
+- Always respect `prefers-reduced-motion`
+- No constant heavy parallax or distracting loops
+
+### Priority animated moments
+1. Hero entrance
+2. The Shift (Before → After)
+3. Outcome cards stagger
+4. FOMO quote interstitials
+5. Real-work scenes
+6. Cost scenarios / tables
+7. Package cards
+8. Final invitation
 
 ---
 
@@ -226,6 +243,7 @@ See full list in `assets-for-code.md`.
 - Touch targets ≥ 44 px
 - Meaningful alt text on important images
 - Semantic headings in order
+- Honor reduced motion preferences
 
 ---
 
@@ -240,6 +258,6 @@ See full list in `assets-for-code.md`.
 
 ## Next steps after this file
 
-1. Final copy for every section
-2. Generate the visual assets (priority order already defined)
-3. Development (Next.js / clean HTML + Tailwind or similar)
+1. Final copy for every section ✅
+2. Generate the visual assets
+3. Development (Next.js + Tailwind + GSAP)
