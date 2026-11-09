@@ -2,94 +2,91 @@
 
 ## Core marketing philosophy
 
-We do **not** hard-sell.
+We sell mostly by showing the better future (the carrot) and by being transparent.
 
-We help the visitor **imagine their world after** implementing AI systems:
-- Less chaos
-- Faster response
-- More capacity
-- Cleaner operations
-- Better decisions
+But we open with **one direct, honest FOMO moment**.
 
-**Show the carrot more than we talk.**  
-Text stays short. Visuals, examples, data and structure do the heavy lifting.
+Why: our clients are SMEs and small individual businesses.  
+The truth is simple and blunt:
 
-Rhetoric we use:
-- **Logos** → clear structure, numbers, scenarios, cost transparency
-- **Pathos** → the feeling of relief and control after automation
-- **Ethos** → calm expertise, selective approach, no hype
+> Those who adapt move forward.  
+> Those who don’t, fall behind (or worse).
 
----
+We create a short, sharp pathos of urgency early — then we immediately calm the visitor and show that there is a clear, practical way to adapt.
 
-## Overall approach
+**Emotional sequence:**
+1. **Ouch** — FOMO / cost of inaction (direct)
+2. **Relief** — there is a simple path (The Shift)
+3. **Clarity** — what becomes possible + real examples
+4. **Options** — packages and scenarios
+5. **Trust** — cost transparency (how the industry actually works)
 
-- Mostly **one strong long-scroll homepage** (story)
-- A few secondary pages only when needed (Solutions detail, Industries, Pricing deeper, Contact)
-- Each section of the homepage is a **distinct visual moment**
-- We design section by section (not one cramped full-page mockup)
-- Layout language:
-  - Full-width hero / statement blocks
-  - 50/50 splits
-  - Short horizontal rows (3–4 cards max)
-  - Occasional single strong visual + short text
-  - Generous whitespace (AI Lab feeling)
+Text stays short. Visuals and structure do most of the work.
 
 ---
 
-## Homepage scroll story (the journey)
+## Homepage scroll story
 
-| # | Section | Intent (what the visitor should feel/think) | Layout direction |
-|---|---------|---------------------------------------------|------------------|
-| 01 | **Hero** | “This is about a smarter way of running my business” | Full-width, strong visual + very short text + soft CTA |
-| 02 | **The shift** | “There is a before and an after” | 50/50 or before/after style |
-| 03 | **What becomes possible** | Show the carrot (outcomes, not features) | Short row of 3 outcome cards or visual scenes |
-| 04 | **How it looks in real work** | Concrete examples by function (email, sales, finance…) | Visual catalogue / horizontal or stacked scenes |
-| 05 | **Who this is for** | “They understand my type of business” | Industry cards or selective list |
-| 06 | **Packages (quietly)** | Options exist, without pressure | Clean 3-column, outcome-oriented |
-| 07 | **Cost clarity** | Trust + transparency | Simple explanation + light scenarios |
-| 08 | **How we work** | Calm process, low risk | 4–5 short steps |
-| 09 | **Final invitation** | Soft close | Full-width quiet CTA |
-
-Secondary pages (later):
-- Solutions (deeper)
-- Catalogue of agents
-- Industries
-- Pricing & costs (expanded)
-- Approach / About
-- Contact
+| # | Section | Intent | Tone |
+|---|---------|--------|------|
+| 01 | **Hero** | Aspiration. Smarter way of running the business. | Calm, premium |
+| 02 | **The Reality Check (FOMO)** | Direct ouch. Adapt or fall behind. Create real urgency. | Blunt, honest, short |
+| 03 | **The Shift** | Clear before → after. Relief begins. | Calm contrast |
+| 04 | **What becomes possible** | Show the carrot (capacity, clarity, growth). | Aspirational |
+| 05 | **Real work examples** | Concrete situations they recognise. | Practical, visual |
+| 06 | **Who this is for** | Recognition (“businesses like mine”). | Selective |
+| 07 | **Packages** | Clear options without pressure. | Structured |
+| 08 | **Cost transparency** | Educational view of variable costs (tokens, volume, complexity, etc.). | Honest, transparent |
+| 09 | **How we work** | Simple process, low perceived risk. | Calm |
+| 10 | **Final invitation** | Soft close with residual direction. | Quiet + clear |
 
 ---
 
-## Working method (from now on)
+## Section 02 — The Reality Check (FOMO)
+
+**Goal:** One clean punch that makes the owner think  
+“I might actually be falling behind.”
+
+Principles:
+- Short
+- Direct
+- Based on truth, not manufactured panic
+- Aimed at small and medium business owners
+- Immediately followed by the solution path (so it doesn’t leave them anxious)
+
+Core message direction (to refine):
+
+> The businesses that integrate intelligent systems now are pulling ahead.  
+> The ones that wait keep carrying the same load — while the gap gets wider.
+
+Or sharper:
+
+> Adapt and move forward.  
+> Or stay as you are and watch others pull away.
+
+This section should feel like a serious, adult conversation — not hype.
+
+---
+
+## Section 08 — Cost transparency
+
+Educational, not salesy.
+
+We show simply how costs work in this industry:
+- What drives cost (tokens / API calls, volume, complexity of workflows, integrations, maintenance)
+- That pure token cost is often only one part
+- Light scenarios so a business owner can orient themselves
+
+Goal:  
+“They are not hiding the mechanics. I understand how this works.”
+
+---
+
+## Working method
 
 1. Define the section (intent + layout + short copy)
-2. Create a folder for that section
-3. Generate **one full visual** for that section (desktop first, mobile later if needed)
-4. Store the image + notes in the section folder
-5. Move to the next section
-6. At the end we will have a complete visual system → then we implement code
+2. Generate one full visual for that section
+3. Store it in its folder
+4. Move to the next
 
-We never try to show the entire page in one image again.
-
----
-
-## Folder structure
-
-```
-website/design/
-├── 00-plan.md                  ← this file
-├── 01-hero/
-├── 02-the-shift/
-├── 03-what-becomes-possible/
-├── 04-real-work-examples/
-├── 05-who-this-is-for/
-├── 06-packages/
-├── 07-cost-clarity/
-├── 08-how-we-work/
-└── 09-final-invitation/
-```
-
-Each section folder will contain:
-- `layout.md` ← intent, copy, layout notes
-- generated images
-- future asset ideas
+We design section by section. Never cram the whole page into one image.
