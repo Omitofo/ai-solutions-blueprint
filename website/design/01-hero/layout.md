@@ -1,40 +1,53 @@
 # 01 — Hero
 
 ## Intent
-The visitor should feel:  
-“This is about running my business in a smarter, calmer way — not about buying another tool.”
+The very first thing the visitor feels is a clear, honest urgency — then the promise.
+
+Order of impact:
+1. Logo
+2. FOMO (highest or second-highest hierarchy)
+3. Supporting vision line
+4. CTA
 
 ## Marketing role
-Open the door. Create aspiration without pressure. Show the feeling of clarity and control.
+Open with pathos (FOMO). Immediately show there is a direction. No separate FOMO section needed at the top.
+
+## Hierarchy options (we choose one)
+
+### Option A — FOMO as main headline
+**Headline (primary)**  
+Don’t get left behind.
+
+**Secondary line**  
+Integrate intelligent systems and ride the wave of the future.
+
+**Supporting**  
+Smarter business. Powered by AI.
+
+### Option B — Classic brand line first, FOMO immediately under it (recommended)
+**Headline (primary)**  
+Smarter Business. Powered by AI.
+
+**FOMO line (second hierarchy, still very strong)**  
+Don’t get left behind. Integrate and ride the wave of the future.
+
+**Short supporting sentence**  
+We help SMEs turn repetitive work into reliable systems — so your team can focus on what actually matters.
 
 ## Layout
 - Full-width
 - Majority white / soft light blue glow
-- Left: very short text block
-- Right (or center-right): strong visual (floating brain or abstract clean AI visual)
-- Two soft CTAs (primary + secondary)
-- Lots of breathing room
+- Left: text block with the hierarchy above
+- Right: strong visual (floating brain)
+- Primary CTA + secondary CTA
+- Generous space
 
-## Short copy (keep minimal)
-
-**Headline**  
-Smarter Business.  
-Powered by AI.
-
-**Subline**  
-Integrate. Automate. Grow.
-
-**One supporting sentence**  
-We help SMEs turn repetitive work into reliable systems — so your team can focus on what actually matters.
-
-**CTAs**  
-- Get in touch  
+## CTAs
+- Get in touch
 - See how it works
 
 ## Visual direction
-Clean, bright, AI-lab feeling.  
-Elegant floating brain or soft abstract intelligence visual.  
-No clutter. No feature lists in the hero.
+Clean, bright, AI-lab. Elegant floating brain. No clutter.
 
-## Notes
-This section should feel like the beginning of a story, not a sales pitch.
+## Decision needed
+We go with **Option B** for now (brand headline + strong FOMO as second hierarchy) unless you prefer FOMO as the absolute main headline.
