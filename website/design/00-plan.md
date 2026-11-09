@@ -1,92 +1,68 @@
 # Website Design Plan — BRAIN AI Solutions
 
-## Core marketing philosophy
+## Marketing philosophy (final direction)
 
-We sell mostly by showing the better future (the carrot) and by being transparent.
+We influence through three levers:
 
-But we open with **one direct, honest FOMO moment**.
+1. **Urgency with inspiration** (FOMO suave)  
+   “Don’t get left behind. Integrate and ride the wave of the future.”
 
-Why: our clients are SMEs and small individual businesses.  
-The truth is simple and blunt:
+2. **Clarity through contrast**  
+   Before → After. Show the shift.
 
-> Those who adapt move forward.  
-> Those who don’t, fall behind (or worse).
+3. **Authority through education**  
+   We teach how tokens and costs actually work with simple tables and real scenarios.  
+   The visitor leaves understanding more than when they arrived — and that builds trust and value.
 
-We create a short, sharp pathos of urgency early — then we immediately calm the visitor and show that there is a clear, practical way to adapt.
+We show the carrot, we explain the mechanics, and we give clear product paths based on real use cases.
 
-**Emotional sequence:**
-1. **Ouch** — FOMO / cost of inaction (direct)
-2. **Relief** — there is a simple path (The Shift)
-3. **Clarity** — what becomes possible + real examples
-4. **Options** — packages and scenarios
-5. **Trust** — cost transparency (how the industry actually works)
-
-Text stays short. Visuals and structure do most of the work.
+Text stays short. Structure, tables, examples and visuals do the heavy lifting.
 
 ---
 
-## Homepage scroll story
+## Homepage scroll story (definitive)
 
-| # | Section | Intent | Tone |
-|---|---------|--------|------|
-| 01 | **Hero** | Aspiration. Smarter way of running the business. | Calm, premium |
-| 02 | **The Reality Check (FOMO)** | Direct ouch. Adapt or fall behind. Create real urgency. | Blunt, honest, short |
-| 03 | **The Shift** | Clear before → after. Relief begins. | Calm contrast |
-| 04 | **What becomes possible** | Show the carrot (capacity, clarity, growth). | Aspirational |
-| 05 | **Real work examples** | Concrete situations they recognise. | Practical, visual |
-| 06 | **Who this is for** | Recognition (“businesses like mine”). | Selective |
-| 07 | **Packages** | Clear options without pressure. | Structured |
-| 08 | **Cost transparency** | Educational view of variable costs (tokens, volume, complexity, etc.). | Honest, transparent |
-| 09 | **How we work** | Simple process, low perceived risk. | Calm |
-| 10 | **Final invitation** | Soft close with residual direction. | Quiet + clear |
+| # | Section name | Intent |
+|---|--------------|--------|
+| 01 | **Hero** | Aspiration. Smarter business powered by AI. |
+| 02 | **Ride the wave** | Soft FOMO + invitation. Don’t get left behind. |
+| 03 | **The Shift** | Clear Before → After. Relief and direction. |
+| 04 | **What becomes possible** | Outcomes (capacity, clarity, growth). |
+| 05 | **How it looks in real work** | Concrete use-case scenes (email, quotations, invoices, reports…). |
+| 06 | **Understand the costs** | Educational core. What tokens are, examples, tables, scenarios. |
+| 07 | **Choose your starting point** | Packages presented through use cases / scenarios. |
+| 08 | **Who this is for** | Industries / types of businesses. |
+| 09 | **How we work** | Simple process. Low perceived risk. |
+| 10 | **Final invitation** | Soft close with residual forward energy. |
 
----
-
-## Section 02 — The Reality Check (FOMO)
-
-**Goal:** One clean punch that makes the owner think  
-“I might actually be falling behind.”
-
-Principles:
-- Short
-- Direct
-- Based on truth, not manufactured panic
-- Aimed at small and medium business owners
-- Immediately followed by the solution path (so it doesn’t leave them anxious)
-
-Core message direction (to refine):
-
-> The businesses that integrate intelligent systems now are pulling ahead.  
-> The ones that wait keep carrying the same load — while the gap gets wider.
-
-Or sharper:
-
-> Adapt and move forward.  
-> Or stay as you are and watch others pull away.
-
-This section should feel like a serious, adult conversation — not hype.
+Secondary pages later: deeper Solutions, full Catalogue, expanded Pricing, Approach, Contact.
 
 ---
 
-## Section 08 — Cost transparency
+## Working method from now on
 
-Educational, not salesy.
-
-We show simply how costs work in this industry:
-- What drives cost (tokens / API calls, volume, complexity of workflows, integrations, maintenance)
-- That pure token cost is often only one part
-- Light scenarios so a business owner can orient themselves
-
-Goal:  
-“They are not hiding the mechanics. I understand how this works.”
+1. Write the full text scaffolding of every section (this phase).
+2. Describe exactly what visual asset each section needs.
+3. Create a master list of all assets (images, icons, tables, diagrams).
+4. When image generation is available again, produce them one by one.
+5. Only then move to code implementation.
 
 ---
 
-## Working method
+## Folder structure
 
-1. Define the section (intent + layout + short copy)
-2. Generate one full visual for that section
-3. Store it in its folder
-4. Move to the next
-
-We design section by section. Never cram the whole page into one image.
+```
+website/design/
+├── 00-plan.md
+├── 01-hero/
+├── 02-ride-the-wave/
+├── 03-the-shift/
+├── 04-what-becomes-possible/
+├── 05-real-work-examples/
+├── 06-understand-the-costs/
+├── 07-packages/
+├── 08-who-this-is-for/
+├── 09-how-we-work/
+├── 10-final-invitation/
+└── assets-master-list.md
+```
