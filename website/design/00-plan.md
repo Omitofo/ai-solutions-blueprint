@@ -1,68 +1,92 @@
 # Website Design Plan — BRAIN AI Solutions
 
-## Marketing philosophy (final direction)
+## Marketing philosophy
 
 We influence through three levers:
 
-1. **Urgency with inspiration** (FOMO suave)  
-   “Don’t get left behind. Integrate and ride the wave of the future.”
+1. **Urgency with inspiration** (FOMO rítmico)  
+2. **Clarity through contrast** (Before → After)  
+3. **Authority through education** (tokens, costes, escenarios reales)
 
-2. **Clarity through contrast**  
-   Before → After. Show the shift.
+### Emotional rhythm (Pathos architecture)
 
-3. **Authority through education**  
-   We teach how tokens and costs actually work with simple tables and real scenarios.  
-   The visitor leaves understanding more than when they arrived — and that builds trust and value.
+We do **not** put all the FOMO in one place.
 
-We show the carrot, we explain the mechanics, and we give clear product paths based on real use cases.
+We create a wave:
 
-Text stays short. Structure, tables, examples and visuals do the heavy lifting.
+1. Start with a clear FOMO (viewer feels the weight / the risk of staying still)
+2. Immediately offer hope and vision (The Shift + What becomes possible)
+3. Every 2–3 sections, place a short FOMO quote as a reminder
+4. Keep lifting with concrete examples, education and clear options
+5. Close with forward direction
 
----
+The FOMO quotes are short, almost like editorial statements.  
+They should never overwhelm. They just keep the emotional tension alive while the rest of the page delivers the promise.
 
-## Homepage scroll story (definitive)
-
-| # | Section name | Intent |
-|---|--------------|--------|
-| 01 | **Hero** | Aspiration. Smarter business powered by AI. |
-| 02 | **Ride the wave** | Soft FOMO + invitation. Don’t get left behind. |
-| 03 | **The Shift** | Clear Before → After. Relief and direction. |
-| 04 | **What becomes possible** | Outcomes (capacity, clarity, growth). |
-| 05 | **How it looks in real work** | Concrete use-case scenes (email, quotations, invoices, reports…). |
-| 06 | **Understand the costs** | Educational core. What tokens are, examples, tables, scenarios. |
-| 07 | **Choose your starting point** | Packages presented through use cases / scenarios. |
-| 08 | **Who this is for** | Industries / types of businesses. |
-| 09 | **How we work** | Simple process. Low perceived risk. |
-| 10 | **Final invitation** | Soft close with residual forward energy. |
-
-Secondary pages later: deeper Solutions, full Catalogue, expanded Pricing, Approach, Contact.
+**Emotional sequence:**
+- Down (FOMO)
+- Up (hope / vision)
+- Mild down (reminder quote)
+- Up (examples + education)
+- Mild down (another soft reminder)
+- Up (packages + process)
+- Close with direction
 
 ---
 
-## Working method from now on
+## Homepage scroll story + emotional beats
 
-1. Write the full text scaffolding of every section (this phase).
-2. Describe exactly what visual asset each section needs.
-3. Create a master list of all assets (images, icons, tables, diagrams).
-4. When image generation is available again, produce them one by one.
-5. Only then move to code implementation.
+| # | Section | Emotional role |
+|---|---------|----------------|
+| 01 | **Hero** | Soft aspiration (gentle entry) |
+| 02 | **Ride the wave** | **First FOMO** — clear urgency |
+| 03 | **The Shift** | Hope begins (Before → After) |
+| 04 | **What becomes possible** | Vision / carrot (up) |
+| — | *FOMO quote interstitial* | Mild reminder |
+| 05 | **How it looks in real work** | Concrete hope (up) |
+| 06 | **Understand the costs** | Trust + clarity (up) |
+| — | *FOMO quote interstitial* | Mild reminder |
+| 07 | **Choose your starting point** | Options / path (up) |
+| 08 | **Who this is for** | Recognition |
+| 09 | **How we work** | Calm process |
+| — | *Optional final soft FOMO line* | Direction |
+| 10 | **Final invitation** | Close with forward energy |
 
 ---
 
-## Folder structure
+## FOMO Quotes Bank (reusable interstitials)
 
-```
-website/design/
-├── 00-plan.md
-├── 01-hero/
-├── 02-ride-the-wave/
-├── 03-the-shift/
-├── 04-what-becomes-possible/
-├── 05-real-work-examples/
-├── 06-understand-the-costs/
-├── 07-packages/
-├── 08-who-this-is-for/
-├── 09-how-we-work/
-├── 10-final-invitation/
-└── assets-master-list.md
-```
+These are short, standalone statements we can place between sections.
+
+**Primary (opening FOMO):**  
+Don’t get left behind.  
+Integrate intelligent systems and ride the wave of the future.
+
+**Supporting quotes (for later interstitials):**
+
+1. The gap is already opening. The only question is which side you build on.
+2. While some keep doing everything manually, others are already designing the systems that will carry them.
+3. Staying still is also a decision.
+4. The future is not waiting. It is already being integrated.
+5. Every month without better systems is another month of the same weight.
+6. Adaptation is not optional. It is just a matter of when — and how deliberately.
+
+Tone rule: urgent and honest, never mean or dramatic.
+
+---
+
+## Other core levers (unchanged)
+
+- **Education** (Section 06) remains one of the strongest value drivers.
+- Packages are presented through real use cases.
+- Visuals > long text.
+- White AI Lab aesthetic.
+
+---
+
+## Working method
+
+1. Finish all layout scaffolding and quote placements.
+2. Master assets list (already started).
+3. Generate visuals section by section when image limit resets.
+4. Then implement code.
