@@ -1,8 +1,13 @@
 # Vision & Positioning
 
+**Company:** BRAIN AI Solutions
+
 ## One-sentence positioning
 
 **AI Operations Partner for SMEs** — we turn repetitive business processes into reliable, measurable AI-powered operations at a predictable monthly cost.
+
+**Tagline:** Smarter Business. Powered by AI.  
+**Sub-line:** Integrate. Automate. Grow.
 
 ## What we sell
 
