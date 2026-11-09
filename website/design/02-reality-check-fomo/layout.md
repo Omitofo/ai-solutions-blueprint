@@ -1,45 +1,44 @@
 # 02 — The Reality Check (FOMO)
 
 ## Intent
-Create a short, direct moment of urgency.
+Create a short moment of urgency that still feels inspiring.
 
-The visitor (SME owner or independent professional) should feel:
-“I might actually be falling behind.”
+The visitor should feel:
+“I don’t want to be left behind — I want to get on this wave.”
 
 ## Role in the story
-This is the **ouch**.
+This is the **ouch + invitation**.
 
-It is not the whole marketing.  
-It is one clean punch, then we immediately move into the solution (The Shift).
+Not aggressive. Not mean.  
+Just clear: the future is moving, and there is a way to move with it.
 
 ## Tone
-- Blunt
-- Honest
-- Adult
-- No fake hype
-- Based on the real dynamic of adaptation vs stagnation
+- Direct
+- Urgent
+- Inspirational
+- Forward-looking
+- Still adult and professional
 
-## Core message options (to choose / refine)
+## Core message (chosen direction)
 
-Option A (direct):
-> Adapt and move forward.  
-> Or stay as you are and watch others pull away.
+**Headline:**  
+Don’t get left behind.
 
-Option B (gap):
-> The businesses that put intelligent systems to work are already pulling ahead.  
-> The ones that wait keep carrying the same load while the gap gets wider.
+**Supporting line:**  
+Integrate intelligent systems and ride the wave of the future.
 
-Option C (extinction frame, still professional):
-> In every shift, some adapt and advance.  
-> Others keep the old way until it costs them.
+Alternative variations we can test:
+- “The future is already moving. Get on the wave.”
+- “Don’t watch the shift happen. Be part of it.”
+- “While some wait, others are already building the systems that will carry them forward.”
 
 ## Layout direction
 - Full-width statement section
 - Strong short headline
-- One or two supporting lines maximum
-- Very little decoration — the words do the work
-- Can have a subtle visual tension (two paths, widening gap, or simple contrast)
-- Still inside the white / clean AI Lab visual language (not dark fear-mongering)
+- One clean supporting line
+- Minimal, elegant visual (suggestion of forward motion / wave / rising path)
+- Still inside the white AI Lab visual language
+- Lots of space so the line lands cleanly
 
 ## After this section
-We go straight into **The Shift** so the visitor is not left only with anxiety — they immediately see that there is a clear way forward.
+We go straight into **The Shift** so the energy turns into clarity and relief.
