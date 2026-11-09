@@ -9,17 +9,16 @@ Ready-to-use text for each section. Keep hierarchy and length exactly as written
 **Headline**  
 Smarter Business. Powered by AI.
 
-**FOMO line (second hierarchy)**  
+**FOMO line**  
 Don’t get left behind. Integrate and ride the wave of the future.
-
-**Supporting line**  
-We help SMEs turn repetitive work into reliable systems — so your team can focus on what actually matters.
 
 **Primary CTA**  
 Get in touch
 
 **Secondary CTA**  
 See how it works
+
+*(Supporting line removed from Hero to keep it clean. Can be reused later in The Shift or elsewhere if needed.)*
 
 ---
 
