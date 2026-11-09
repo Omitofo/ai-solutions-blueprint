@@ -12,18 +12,16 @@ This is a company that sells **business outcomes** delivered through reusable AI
 
 ---
 
+## Start here for continuity
+
+**→ [`HANDOFF.md`](./HANDOFF.md)**  
+Read this first in any new session. It summarizes status, decisions, what is missing, and what to do next.
+
+---
+
 ## Repository purpose
 
-This repository is the living blueprint of the company:
-
-- Strategic decisions and vision
-- Product catalogue (packages & agents)
-- Cost models and pricing logic
-- Technical architecture
-- Implementation methods and playbooks
-- Roadmap and prioritization
-- Legal, security and compliance
-- **Website content source** (ready to turn into the public site)
+Living blueprint of the company + website design system and content ready for implementation.
 
 ---
 
@@ -41,43 +39,31 @@ This repository is the living blueprint of the company:
 
 ```
 /
+├── HANDOFF.md                 ← session continuity
 ├── README.md
-├── docs/                     ← Internal strategy & models
-│   ├── vision.md
-│   ├── market-opportunity.md
-│   ├── cost-model.md
-│   ├── packages.md
-│   ├── architecture.md
-│   ├── roadmap.md
-│   ├── legal-compliance.md
-│   └── catalogue/
-├── website/                  ← Content for the future public website
-│   ├── home.md
-│   ├── solutions.md
-│   ├── catalogue.md
-│   ├── industries.md
-│   ├── pricing-and-costs.md
-│   ├── integrations.md
-│   └── approach.md
+├── docs/                      ← business strategy
+├── website/
+│   ├── content/               ← final homepage copy
+│   ├── design/                ← foundations, plan, assets spec
+│   └── tech/                  ← stack + project structure
 ├── brainstorm/
-├── templates/
-└── financial-model/          # future calculators
+└── templates/
 ```
 
 ---
 
-## Current status
+## Current status (high level)
 
-- [x] Repository & brand name locked (BRAIN AI Solutions)
-- [x] Vision & positioning
-- [x] Packages & pricing hypotheses
-- [x] Cost model framework
-- [x] Architecture direction
-- [x] Automation catalogue & industries
-- [x] First version of website content pages
+- [x] Brand & positioning locked
+- [x] Business blueprint (packages, costs, architecture, roadmap)
+- [x] Website design foundations
+- [x] Final homepage copy
+- [x] Asset specification for code
+- [x] Tech stack (Next.js + Tailwind + GSAP)
+- [ ] Visual assets generation
+- [ ] Website implementation
 - [ ] Business-case calculator
-- [ ] Detailed specs of the 5 core solutions
-- [ ] First pilot candidates
+- [ ] First pilots
 
 ---
 
