@@ -90,7 +90,67 @@ We use industry-standard, stable, widely adopted versions.
 
 ---
 
-## 4. High-level Architecture
+## 4. Responsive Strategy (Mobile-First — Mandatory)
+
+**This website must be 100% responsive.**  
+We design and implement **mobile-first**. This is not optional.
+
+### Why mobile-first?
+
+- Designing for the smallest screen first forces clarity, hierarchy and prioritization.
+- It is significantly harder to make a desktop design work well on mobile than the opposite.
+- Mobile traffic is dominant for most marketing sites.
+- It produces cleaner, more maintainable CSS.
+
+### Professional approach we use
+
+1. **Write base styles for mobile** (0–767px).
+2. **Then enhance progressively** with Tailwind breakpoints:
+   - `sm:` → 640px+
+   - `md:` → 768px+ (tablet)
+   - `lg:` → 1024px+ (desktop)
+   - `xl:` → 1280px+
+   - `2xl:` → 1536px+
+
+3. **Layout principles:**
+   - Stack everything vertically by default.
+   - Use CSS Grid / Flexbox with responsive utilities.
+   - Prefer `gap` over margins for spacing consistency.
+   - Images and cards must reflow cleanly.
+   - Touch targets ≥ 44px on mobile.
+   - Avoid horizontal scroll at all costs.
+
+4. **Component responsibility:**
+   - Every section component must look correct on mobile, tablet and desktop.
+   - Shared UI components (`Button`, `Card`, `SectionHeader`) are built mobile-first from the start.
+
+5. **Testing expectation:**
+   - Always check mobile width first during development.
+   - Use browser DevTools + real device when possible.
+   - Never consider a section "done" until it works well on mobile.
+
+### Tailwind convention we follow
+
+```tsx
+// ✅ Correct (mobile-first)
+<div className="flex flex-col gap-6 md:flex-row md:gap-10 lg:gap-16">
+
+// ❌ Avoid (desktop-first thinking)
+<div className="flex flex-row gap-16 max-md:flex-col max-md:gap-6">
+```
+
+### Breakpoints reference (from Design Foundations)
+
+| Name    | Width        |
+|---------|--------------|
+| Mobile  | 0 – 767 px   |
+| Tablet  | 768 – 1023 px|
+| Desktop | 1024 px +    |
+| Wide    | 1280 px +    |
+
+---
+
+## 5. High-level Architecture
 
 ```
 Marketing Website (SSG)
@@ -125,7 +185,7 @@ Animation logic is centralized as much as possible.
 
 ---
 
-## 5. Component & Section Strategy
+## 6. Component & Section Strategy
 
 | Section                    | Component name              | Notes |
 |---------------------------|-----------------------------|-------|
@@ -142,9 +202,11 @@ Animation logic is centralized as much as possible.
 
 Shared UI components follow Design Foundations (`Button`, `SectionHeader`, `Card`, etc.).
 
+All of them must be built **mobile-first**.
+
 ---
 
-## 6. Animation Approach
+## 7. Animation Approach
 
 - **Primary:** GSAP + ScrollTrigger for scroll-driven storytelling.
 - **Secondary:** Motion for small React state animations when simpler.
@@ -157,20 +219,21 @@ Priority animation moments are defined in `design-foundations.md` and `stack-and
 
 ---
 
-## 7. How to extend the system safely
+## 8. How to extend the system safely
 
 When adding something new:
 
 1. Check this guide + Design Foundations first.
 2. Decide if it is content, visual asset, or code component.
-3. Place it in the correct location (see section 8 below).
+3. Place it in the correct location (see section 9 below).
 4. Prefer reusing existing UI components.
 5. Keep the visual language consistent (White AI Lab).
-6. Update this document if the architecture changes.
+6. **Always implement mobile-first.**
+7. Update this document if the architecture changes.
 
 ---
 
-## 8. Source of Truth Separation
+## 9. Source of Truth Separation
 
 This section is deliberately separated so anyone (human or LLM) can quickly know **where to look** for each type of information.
 
@@ -227,6 +290,7 @@ project:
   type: marketing-site
   rendering: SSG
   framework: nextjs-app-router
+  responsive: mobile-first   # mandatory
 
 stack:
   nextjs: "15.x"
@@ -240,6 +304,7 @@ stack:
 architecture:
   style: component-based
   sections: one-component-per-section
+  responsive_strategy: mobile-first
   animation:
     primary: gsap-scrolltrigger
     secondary: motion
@@ -262,7 +327,7 @@ deployment:
 
 ---
 
-## 9. Current Status (as of document creation)
+## 10. Current Status (as of document creation)
 
 - Design Foundations ✅
 - Homepage copy ✅
@@ -277,14 +342,14 @@ deployment:
 
 ---
 
-## 10. Next Steps
+## 11. Next Steps
 
 1. Finalize this guide and get explicit approval.
 2. Create a **new dedicated repository** for the actual website code.
 3. Scaffold Next.js + TypeScript + Tailwind with the approved versions.
-4. Implement design tokens.
+4. Implement design tokens + mobile-first base styles.
 5. Build Hero + The Shift first (with placeholders if needed).
-6. Continue section by section.
+6. Continue section by section, always validating mobile first.
 
 ---
 
