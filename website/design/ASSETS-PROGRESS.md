@@ -21,8 +21,8 @@ Last updated: 2026-11-10
 |----------|----|----------|---------|--------|-------|
 | 1 | G01 | logo-horizontal.svg / .png | Brand | ✅ | Wordmark + icon (colour, white, mono) |
 | 1 | G02 | logo-icon.svg / .png | Brand | ✅ | Circuit-brain only |
-| 2 | H01 | hero-brain-desktop.webp | Hero | ❌ | Floating translucent blue brain |
-| 2 | H02 | hero-brain-mobile.webp | Hero | ❌ | Same, mobile crop |
+| 2 | H01 | hero-brain-desktop.webp / .jpg | Hero | ✅ | Floating translucent blue brain |
+| 2 | H02 | hero-brain-mobile.webp / .jpg | Hero | ✅ | Same, mobile crop |
 | 3 | S01 | shift-before-after.webp | The Shift | ❌ | 50/50 comparison (reference exists) |
 | 4 | P01–P03 | outcome-*.webp | What becomes possible | ❌ | Capacity / Decisions / Growth |
 | 5 | R01–R05 | scene-*.webp | Real work | ❌ | Email, Quotation, Invoices, Report, Follow-up |
@@ -42,9 +42,9 @@ Last updated: 2026-11-10
 - [x] G04 og-image.png
 
 ### 01 Hero
-- [ ] H01 hero-brain-desktop
-- [ ] H02 hero-brain-mobile
-  (reference: hero-reference.jpg available)
+- [x] H01 hero-brain-desktop
+- [x] H02 hero-brain-mobile
+  (saved in website-assets/public/images/hero/)
 
 ### 02 The Shift
 - [ ] S01 shift-before-after
@@ -91,4 +91,5 @@ All 36 SVGs ready in `website-assets/public/icons/`:
 - After generation, save/copy to the correct folder under `website-assets/public/` with the exact filename.
 - Update this file after each successful asset.
 - Brand + icons completed via external generation + import 2026-11-10.
-- Next priority: Hero brain (H01/H02) and Shift before/after (S01).
+- Hero brain (H01/H02) generated and approved 2026-11-10.
+- Next priority: The Shift before/after (S01).
