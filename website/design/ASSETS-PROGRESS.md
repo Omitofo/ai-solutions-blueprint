@@ -24,7 +24,7 @@ Last updated: 2026-11-10
 | 2 | H01 | hero-brain-desktop.webp / .jpg | Hero | ✅ | Floating translucent blue brain |
 | 2 | H02 | hero-brain-mobile.webp / .jpg | Hero | ✅ | Same, mobile crop |
 | 3 | S01 | shift-before-after.jpg | The Shift | ✅ | 50/50 comparison approved |
-| 4 | P01–P03 | outcome-*.webp | What becomes possible | ❌ | Capacity / Decisions / Growth |
+| 4 | P01–P03 | outcome-*.jpg | What becomes possible | ✅ | Capacity / Decisions / Growth |
 | 5 | R01–R05 | scene-*.webp | Real work | ❌ | Email, Quotation, Invoices, Report, Follow-up |
 | 6 | C01–C02 | diagram-*.webp | Costs | ❌ | Token explanation diagrams |
 | 7 | — | Icon library (SVG) | Shared | ✅ | 36 icons complete |
@@ -49,14 +49,15 @@ Last updated: 2026-11-10
 ### 02 The Shift
 - [x] S01 shift-before-after
 - [ ] S02/S03 optional scenes
-- [x] Shift icons (6 SVGs): email-overload, papers, agent-ready, crm-connected, report-ready, system-sync
+- [x] Shift icons (6 SVGs)
   (saved in website-assets/public/images/shift/)
 
 ### 03 Outcomes
-- [ ] P01 outcome-capacity
-- [ ] P02 outcome-decisions
-- [ ] P03 outcome-growth
-- [x] Icons: capacity, insights, growth (and rocket, lightbulb, chart)
+- [x] P01 outcome-capacity
+- [x] P02 outcome-decisions
+- [x] P03 outcome-growth
+  (saved in website-assets/public/images/outcomes/)
+- [x] Icons: capacity, insights, growth
 
 ### 04 Real work scenes
 - [ ] R01 scene-email
@@ -70,11 +71,7 @@ Last updated: 2026-11-10
 - [ ] C02 diagram-multistep
 
 ### Icons library ✅
-All 36 SVGs ready in `website-assets/public/icons/`:
-- Core: brain, email, calendar, document, chart, rocket, lightbulb, shield, puzzle, cloud, users, check, arrow-right, wave
-- Shift: email-overload, papers, agent-ready, crm-connected, report-ready, system-sync
-- Outcomes/steps: capacity, insights, growth, step-discover/design/implement/measure/manage
-- Industries: real-estate, construction, accountancy, legal, wholesale, ecommerce, tourism, clinics
+All 36 SVGs ready in `website-assets/public/icons/`
 
 ### Other
 - [ ] Package visuals (optional)
@@ -87,10 +84,8 @@ All 36 SVGs ready in `website-assets/public/icons/`:
 
 ## Generation notes
 - Style: White AI Lab — majority white / soft light, electric blue (#0066FF → #00A3FF), clean, premium, floating 3D/soft abstract, no dark cyberpunk.
-- Generate one primary asset at a time when possible.
-- After generation, save/copy to the correct folder under `website-assets/public/` with the exact filename.
-- Update this file after each successful asset.
-- Brand + icons completed via external generation + import 2026-11-10.
-- Hero brain (H01/H02) generated and approved 2026-11-10.
-- The Shift (S01) generated and approved 2026-11-10.
-- Next priority: Outcomes (P01–P03) or Real work scenes.
+- Brand + icons completed 2026-11-10.
+- Hero brain (H01/H02) approved 2026-11-10.
+- The Shift (S01) approved 2026-11-10.
+- Outcomes (P01–P03) generated and approved 2026-11-10.
+- Next priority: Real work scenes (R01–R05) or Cost diagrams.
