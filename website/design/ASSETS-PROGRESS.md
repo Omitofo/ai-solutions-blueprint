@@ -23,7 +23,7 @@ Last updated: 2026-11-10
 | 1 | G02 | logo-icon.svg / .png | Brand | ✅ | Circuit-brain only |
 | 2 | H01 | hero-brain-desktop.webp / .jpg | Hero | ✅ | Floating translucent blue brain |
 | 2 | H02 | hero-brain-mobile.webp / .jpg | Hero | ✅ | Same, mobile crop |
-| 3 | S01 | shift-before-after.webp | The Shift | ❌ | 50/50 comparison (reference exists) |
+| 3 | S01 | shift-before-after.jpg | The Shift | ✅ | 50/50 comparison approved |
 | 4 | P01–P03 | outcome-*.webp | What becomes possible | ❌ | Capacity / Decisions / Growth |
 | 5 | R01–R05 | scene-*.webp | Real work | ❌ | Email, Quotation, Invoices, Report, Follow-up |
 | 6 | C01–C02 | diagram-*.webp | Costs | ❌ | Token explanation diagrams |
@@ -47,10 +47,10 @@ Last updated: 2026-11-10
   (saved in website-assets/public/images/hero/)
 
 ### 02 The Shift
-- [ ] S01 shift-before-after
+- [x] S01 shift-before-after
 - [ ] S02/S03 optional scenes
 - [x] Shift icons (6 SVGs): email-overload, papers, agent-ready, crm-connected, report-ready, system-sync
-  (reference: shift-reference.jpg available)
+  (saved in website-assets/public/images/shift/)
 
 ### 03 Outcomes
 - [ ] P01 outcome-capacity
@@ -92,4 +92,5 @@ All 36 SVGs ready in `website-assets/public/icons/`:
 - Update this file after each successful asset.
 - Brand + icons completed via external generation + import 2026-11-10.
 - Hero brain (H01/H02) generated and approved 2026-11-10.
-- Next priority: The Shift before/after (S01).
+- The Shift (S01) generated and approved 2026-11-10.
+- Next priority: Outcomes (P01–P03) or Real work scenes.
