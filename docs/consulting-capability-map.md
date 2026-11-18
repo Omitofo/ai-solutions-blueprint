@@ -5,6 +5,48 @@ Not used by the website or product code. Use this when assessing a client requir
 
 ---
 
+## Index
+
+1. [How to use this as a consultant](#how-to-use-this-as-a-consultant)
+2. [The 12 Fundamental Enterprise Operations](#the-12-fundamental-enterprise-operations)
+3. [Tool Capability Matrix](#tool-capability-matrix)
+4. [Group Tools by Actual Job](#group-tools-by-actual-job)
+5. [Practical Decision Matrix (Client Discovery)](#practical-decision-matrix-client-discovery)
+6. [The Four Components That Tie Everything Together](#the-four-components-that-tie-everything-together)
+7. [Ultimate Cheat Sheet](#ultimate-cheat-sheet)
+8. [Three Dimensions to Assess for Every Operation](#three-dimensions-to-assess-for-every-operation)
+9. [How to Approach a Business Problem](#how-to-approach-a-business-problem)
+10. [The Most Important Thing to Master](#the-most-important-thing-to-master)
+11. [Suggested Next Evolution](#suggested-next-evolution)
+
+---
+
+## How to use this as a consultant
+
+When meeting a client, follow this sequence:
+
+1. **Identify the business outcome**  
+   What are they trying to achieve? Save time, improve accuracy, reduce costs, increase revenue?
+
+2. **Identify the operations**  
+   Retrieve? Transform? Analyze? Decide? Execute? Orchestrate?
+
+3. **Identify the information sources**  
+   Where does the information live? SharePoint, SAP, Salesforce, SQL, emails?
+
+4. **Identify the execution mechanisms**  
+   API, SQL, webhook, connector, workflow engine, RPA?
+
+5. **Choose the intelligence level**  
+   No AI, AI-assisted, RAG, agent, or predictive model?
+
+6. **Design security and reliability**  
+   Authentication, permissions, approvals, retries, logging and monitoring.
+
+This sequence keeps you grounded in the real problem instead of jumping straight to frameworks.
+
+---
+
 ## The 12 Fundamental Enterprise Operations
 
 A functional classification independent of software vendors. One system can perform several of these.
@@ -257,6 +299,23 @@ The third dimension is especially important when designing AI solutions.
 4. Decide whether **AI is actually needed**.
 
 You can now approach a business problem without immediately thinking about which AI framework to use.
+
+---
+
+## The Most Important Thing to Master
+
+Prioritize these **five technical foundations** before learning more AI frameworks:
+
+1. **REST APIs and JSON** — understand how systems expose and exchange data.
+2. **OAuth 2.0 and permissions** — understand how applications access other applications securely.
+3. **SQL and data modeling** — understand how structured enterprise information is organized.
+4. **Webhooks and event-driven architecture** — understand how systems react to business events.
+5. **Workflow orchestration** — understand how to coordinate multiple operations reliably.
+
+Once you understand those five, you have the foundation to integrate almost any enterprise system.
+
+> **Remember:** the objective isn't to make every business process an AI agent.  
+> It's to use the **simplest reliable mechanism** for each operation, introducing AI precisely where interpretation, reasoning or flexibility adds value.
 
 ---
 
