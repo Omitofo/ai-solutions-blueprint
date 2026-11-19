@@ -8,6 +8,7 @@ Documento fundacional — Versión 1.0
 
 ## Índice
 
+0. [Cómo utilizar este documento](#cómo-utilizar-este-documento)
 1. [Nuestra filosofía](#1-nuestra-filosofía)
 2. [Los fundamentos: operaciones empresariales](#2-los-fundamentos-qué-operaciones-necesita-realizar-una-empresa)
 3. [Las familias de herramientas](#3-las-familias-de-herramientas)
@@ -21,6 +22,39 @@ Documento fundacional — Versión 1.0
 11. [Principios de arquitectura y calidad](#11-principios-de-arquitectura-y-calidad)
 12. [Framework definitivo de decisión](#12-nuestro-framework-definitivo-de-decisión)
 13. [La posición de nuestra consultoría](#13-la-posición-de-nuestra-consultoría)
+
+---
+
+## Cómo utilizar este documento
+
+Hay una decisión estratégica importante: mantener **separados tres niveles** en el negocio.
+
+| Nivel | Nombre | Qué define |
+|-------|--------|------------|
+| **Nivel 1** | **Consulting Methodology** | Cómo diagnosticamos, analizamos y decidimos qué necesita cada empresa. |
+| **Nivel 2** | **Integration Pattern Catalog** | Los ocho patrones reutilizables que podemos combinar para diseñar soluciones. |
+| **Nivel 3** | **Commercial Service Packages** | Cómo presentamos, presupuestamos y vendemos esas soluciones a los clientes. |
+
+### Relación entre niveles
+
+- El **Nivel 1** (metodología) es cómo pensamos y diagnosticamos. Es interno y reutilizable en todos los proyectos.
+- El **Nivel 2** (catálogo de patrones) es el **núcleo comercial y técnico**. Aquí están las piezas reutilizables.
+- El **Nivel 3** (paquetes comerciales) es la forma en que empaquetamos y vendemos esas piezas al mercado.
+
+**Recomendación estratégica:** el catálogo de ocho patrones debe ser el núcleo. El *custom design* sigue siendo una capacidad permanente, pero no necesitamos empezar cada proyecto desde cero.
+
+### Siguiente paso de mayor valor
+
+Desarrollar una **ficha técnica estandarizada** para cada uno de los ocho patrones, con:
+
+- Arquitectura visual
+- Componentes obligatorios y opcionales
+- Requisitos de entrada
+- Entregables
+- Complejidad
+- Criterios de presupuesto
+
+Así pasamos de tener una metodología a tener una **oferta de consultoría realmente comercializable**.
 
 ---
 
